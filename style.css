@@ -1,0 +1,115 @@
+body{
+    background-color: azure;
+}
+
+.addContact{
+   display: flex;
+   flex-direction: column;
+   background: #fff;
+   justify-content: center;
+   align-items: center;
+   width: 350px;
+   height: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 7%;
+
+
+}
+
+.ContactList{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+     
+ }
+ .ContactNames{
+    font-weight: 150;
+    font-size: 13px;
+    text-align: left;
+    border-bottom:1px solid black;
+    width: 100%;
+ }
+.addContactText{
+  
+    font-weight: 150;
+    font-size: 13px;
+    text-align: left;
+    border-bottom:1px solid black;
+    width: 100%;
+}
+.contactNametextP{
+    margin-left: 5%;
+    padding-top: 15px;
+}
+.contactNametext{
+    margin-left: 5%;
+    font-size: 20px;
+    
+}
+.Menu{
+    font-weight: 150;
+    font-size: 13px;
+    text-align: left;
+    border-bottom:1px solid black;
+    width: 100%;
+  
+
+}
+.addContactH1{
+    margin-left: 15%;
+
+}
+.addContactH2{
+    margin-left:5%;
+ 
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#phone{
+  
+    height:45px;
+    margin-top: 13px;
+    border-radius: 5px;
+    width: 250px;
+    padding: 8px;
+}
+
+#name{
+  
+    height: 45px;
+    padding: 8px;
+    border-radius: 5px;
+    width:250px;
+
+
+  
+}
+.submitButton{
+    background: blue;
+    height: 45px;
+    width: 100px;
+    color: #fff;
+    border-radius:5px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+ 
+}
+.formInput{
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+ 
+
+}
